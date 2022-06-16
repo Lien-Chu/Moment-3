@@ -81,6 +81,8 @@ abbr {
     display: flex;
     width: 900px;
     margin: 0 auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .container {
@@ -97,7 +99,7 @@ abbr {
     text-align: center;
     align-items: center;
     justify-content: center;
-    width: 900px;
+    width: 700px;
     height: 200px;
     font-size: 20px;
     line-height: 100px;
@@ -169,7 +171,7 @@ abbr {
 }
 
 .gap {
-    height: 985px;
+    height: 135px;
 }
 
 
