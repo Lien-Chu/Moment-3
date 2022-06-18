@@ -2,27 +2,22 @@ body {
     font-family: 'Josefin Sans';
     letter-spacing: 0.3px;
 }
-.title1 {
-    top:0;
-    position: fixed;
-    background-color: lightgray;
-    color: darkgreen;
-    height: 150px;
-    width: 100%;
-    text-align: center;
-    font-size: 25px;
-    line-height: 60px;
-}
+.A {
 
-.title2 {
+    width: 100%;
+    margin:0 auto;
+}
+.title {
+    top:0;
     position: sticky;
+    background-color:rgb(255, 255, 255);
+    box-shadow: 0.1px 0.5px lightgray;
     color: darkgreen;
     height: 150px;
     width: 100%;
-    margin-bottom: 50px;
     text-align: center;
     font-size: 25px;
-    line-height: 60px;
+    line-height: 160px;
 }
 
 .uppgift-a {
@@ -171,12 +166,7 @@ abbr {
 }
 
 .gap {
-    height: 135px;
+    height: 50px;
 }
 
 
-@media (min-width:414px) {
-    .gap {
-        height: 938px;
-    }  
-}
